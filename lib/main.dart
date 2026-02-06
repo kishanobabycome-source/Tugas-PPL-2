@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tugas/column.dart';
 import 'package:flutter_tugas/column2.dart';
+import 'package:flutter_tugas/container1.dart';
+import 'package:flutter_tugas/container2.dart';
+import 'package:flutter_tugas/container3.dart';
 import 'package:flutter_tugas/hello.dart';
+import 'package:flutter_tugas/programppl.dart';
 import 'package:flutter_tugas/row.dart';
 import 'package:flutter_tugas/row2.dart';
+import 'package:flutter_tugas/widget1.dart';
+import 'package:flutter_tugas/widget2.dart';
+import 'package:flutter_tugas/widgeticon.dart';
+import 'package:flutter_tugas/widgetimages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +43,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:ColumnNoSpacing()
+      home:ProgramPpl()
     );
   }
 }
